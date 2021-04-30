@@ -24,8 +24,7 @@ def Ciclo():
     ruta = "paso_a_paso/paso_a_paso.csv"
     DescargarCSV(url,ruta)
     cargarInOutPut()
-    time.sleep(60 * 60 * 3)
-    Ciclo()
+
 
 def cargarInOutPut2():
     try:
