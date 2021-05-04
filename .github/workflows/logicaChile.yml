@@ -1,11 +1,8 @@
-name: Datos CHL
+name: Lógica CHL
 
 on:
     push
-    #schedule:
-      #- cron:  '0 */6 * * *'
-      
-
+  
 jobs:
   build:
 
@@ -25,13 +22,14 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Ejecutando archivo PY
+    - name: Running code
       run: |
+
         python Servidor.py
 
     - uses: stefanzweifel/git-auto-commit-action@v2
       with:
-        commit_message: "Datos Chile"
+        commit_message: "Descargado archivos"
         branch: main
         # Optional glob pattern of files which should be added to the commit
         #file_pattern: /
