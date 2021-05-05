@@ -22,7 +22,7 @@ def Ciclo():
     print("***********************************************************************************************")
     url = "https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/input/Paso_a_paso/paso_a_paso.csv"
     ruta = "paso_a_paso/paso_a_paso.csv"
-    # DescargarCSV(url,ruta)
+    DescargarCSV(url,ruta)
     cargarInOutPut()
 
 
