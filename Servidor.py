@@ -1,19 +1,4 @@
-import os
-import shutil
-import subprocess
-import shutil
-import os
-import stat
-from os import path
-import time
-import datetime
-from sklearn.linear_model import LinearRegression
-from sklearn import linear_model
 import pandas as pd
-import numpy as np
-import dateparser
-from zipfile import ZipFile
-import requests
 
 
 def DescargarCSV():
